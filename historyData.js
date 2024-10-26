@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function fetchHistory() {
     try {
-        const response = await axios.get('https://gemini-remember-default-rtdb.firebaseio.com/history.json', {
+        const response = await axios.get(`${process.env.MEMORY_BANK}`, {
             headers: {
                 'Content-Type': 'application/json'
             }
