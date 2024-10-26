@@ -1,0 +1,7 @@
+/node_modules
+.env
+.discloudignore
+discloud.config
+/tools
+/discloud
+sysInst.js
